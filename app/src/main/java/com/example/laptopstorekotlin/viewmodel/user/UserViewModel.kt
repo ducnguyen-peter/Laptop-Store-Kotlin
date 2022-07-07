@@ -1,13 +1,19 @@
 package com.example.laptopstorekotlin.viewmodel.user
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.laptopstorekotlin.dao.user.UserDAO
 import com.example.laptopstorekotlin.model.user.User
 
-class UserViewModel : ViewModel() {
+class UserViewModel(val userDAO:UserDAO) : ViewModel() {
     val userIdentity = MutableLiveData<String?>()
     val password = MutableLiveData<String?>()
-    val user:MutableLiveData<User> by lazy {
-        MutableLiveData<User>()
+    private val _isLoginSuccess = MutableLiveData(false)
+    val isLoginSuccess:LiveData<Boolean> = _isLoginSuccess
+    fun checkLogin(){
+        Thread{
+            _isLoginSuccess.postValue(userDAO.checkLogin(userIdentity.value, password.value))
+        }.start()
     }
 }

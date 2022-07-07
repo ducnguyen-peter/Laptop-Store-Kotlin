@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val loginViewBinding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         val user = if(intent.hasExtra("LoggedInUser")){
             intent.getSerializableExtra("LoggedInUser") as User
-        } else User()
+        } else User("","")
         loginViewBinding.textView2.text = "Welcome ${user.name}"
     }
 }

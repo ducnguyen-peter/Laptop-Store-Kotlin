@@ -9,5 +9,5 @@ data class User(var id:Int?,
                 var phoneNum:String?,
                 var avatarLink:String?,
                 var role:String?):Serializable{
-    constructor():this(null, null, null, null, null, null, null)
+    constructor(name: String?, password: String?):this(null, name, password, null, null, null, null)
 }
