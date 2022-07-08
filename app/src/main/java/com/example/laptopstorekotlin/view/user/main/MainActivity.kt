@@ -1,4 +1,4 @@
-package com.example.laptopstorekotlin.view.user.verify
+package com.example.laptopstorekotlin.view.user.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
             intent.getSerializableExtra("LoggedInUser") as User
         } else User("")
         loginViewBinding.textView2.text = "Welcome ${user.name}"
-
-        val data1 = TestData("1")
-        val data2 = TestData("2")
     }
+
 }
