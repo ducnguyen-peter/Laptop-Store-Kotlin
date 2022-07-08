@@ -10,29 +10,28 @@ import com.example.laptopstorekotlin.R
 import com.example.laptopstorekotlin.dao.user.UserDAOImpl
 import com.example.laptopstorekotlin.databinding.ActivityLoginBinding
 import com.example.laptopstorekotlin.model.user.User
+import com.example.laptopstorekotlin.utils.PreferenceUtils
 import com.example.laptopstorekotlin.viewmodel.user.UserViewModel
 import com.example.laptopstorekotlin.viewmodel.user.UserViewModelFactory
 import java.io.Serializable
 
 class LoginActivity : AppCompatActivity() {
-    private val userViewModel:UserViewModel by viewModels<UserViewModel> {
+    private val userViewModel:UserViewModel by viewModels {
         UserViewModelFactory(UserDAOImpl(this))
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        val loginViewBinding:ActivityLoginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login)
 
+        val loginViewBinding:ActivityLoginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login)
         loginViewBinding.userViewModel = userViewModel
 
-        val userObserver = Observer<Boolean>{ isLoginSuccess:Boolean->
+        goToMainPage(User(PreferenceUtils.getName(this)))
+
+        val userObserver = Observer{ isLoginSuccess:Boolean->
             if(isLoginSuccess){
-                val user = User(userViewModel.userIdentity.value,userViewModel.password.value)
-                val intent = Intent(this, MainActivity::class.java).apply {
-                    putExtra("LoggedInUser", user as Serializable)
-                }
-                startActivity(intent)
-                finish()
+                val user = User(userViewModel.userIdentity.value)
+                goToMainPage(user)
             }
         }
         userViewModel.isLoginSuccess.observe(this, userObserver)
@@ -40,5 +39,15 @@ class LoginActivity : AppCompatActivity() {
         loginViewBinding.btnLogin.setOnClickListener{
             userViewModel.checkLogin()
         }
+    }
+
+    fun goToMainPage(user:User){
+        if (user.name==null) return
+        val intent = Intent(this, MainActivity::class.java).apply {
+            putExtra("LoggedInUser", user as Serializable)
+        }
+        PreferenceUtils.saveName(user.name, this)
+        startActivity(intent)
+        finish()
     }
 }

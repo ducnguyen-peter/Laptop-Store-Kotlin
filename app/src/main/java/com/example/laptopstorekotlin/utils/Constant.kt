@@ -85,11 +85,11 @@ val allCartItemColumns = arrayOf(
 
 //
 //key for SharedPreferences
-var KEY_USERNAME = "username"
-var KEY_EMAIL = "email"
-var KEY_TEL = "tel"
-var KEY_PASSWORD = "password"
-var KEY_CART_ID = "cartId"
+const val KEY_USERNAME = "username"
+const val KEY_EMAIL = "email"
+const val KEY_TEL = "tel"
+const val KEY_PASSWORD = "password"
+const val KEY_CART_ID = "cartId"
 
 //name and columns for table OrderOfUser
 const val TABLE_ORDER = "[Order]"

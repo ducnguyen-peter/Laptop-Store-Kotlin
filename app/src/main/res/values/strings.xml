@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Laptop Store Kotlin</string>
+    <string name="preference_file_key">com.example.laptopstorekotlin.PREFERENCE_FILE_KEY</string>
 </resources>

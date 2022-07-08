@@ -8,10 +8,10 @@ import com.example.laptopstorekotlin.model.user.User
 import com.example.laptopstorekotlin.utils.*
 
 class UserDAOImpl(val context: Context) :  UserDAO{
-    val dbHelper: DBHelper by lazy{
+    private val dbHelper: DBHelper by lazy{
         DBHelper(context)
     }
-    val db : SQLiteDatabase by lazy {
+    private val db : SQLiteDatabase by lazy {
         dbHelper.writableDatabase
     }
 
