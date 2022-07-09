@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val user = if(intent.hasExtra("LoggedInUser")){
             intent.getSerializableExtra("LoggedInUser") as User
         } else User("")
-        loginViewBinding.textView2.text = "Welcome ${user.name}"
+//        loginViewBinding.textView2.text = "Welcome ${user.name}"
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

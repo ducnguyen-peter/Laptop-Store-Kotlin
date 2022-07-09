@@ -7,12 +7,20 @@ import android.util.Patterns
 import com.example.laptopstorekotlin.model.user.User
 import com.example.laptopstorekotlin.utils.*
 
-class UserDAOImpl(val context: Context) :  UserDAO{
-    private val dbHelper: DBHelper by lazy{
-        DBHelper(context)
-    }
-    private val db : SQLiteDatabase by lazy {
-        dbHelper.writableDatabase
+class UserDAOImpl(context: Context) :  UserDAO{
+
+//    private val dbHelper: DBHelper by lazy{
+//        DBHelper(context)
+//    }
+//    private val db : SQLiteDatabase by lazy {
+//        dbHelper.writableDatabase
+//    }
+
+    private val dbHelper:DBHelper;
+    private val db : SQLiteDatabase;
+    init {
+        dbHelper = DBHelper(context)
+        db = dbHelper.writableDatabase
     }
 
     override fun addUser(user: User) {
