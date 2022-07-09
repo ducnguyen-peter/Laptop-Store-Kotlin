@@ -3,6 +3,7 @@ package com.example.laptopstorekotlin.view.user.verify
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.example.laptopstorekotlin.R
@@ -19,7 +20,6 @@ class LoginActivity : AppCompatActivity() {
     private val userViewModel:UserViewModel by viewModels {
         UserViewModelFactory(UserDAOImpl(this))
     }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
