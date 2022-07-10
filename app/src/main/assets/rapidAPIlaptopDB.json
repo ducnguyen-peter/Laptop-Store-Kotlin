@@ -1,0 +1,556 @@
+[
+  {
+    "_id": {
+      "$oid": "5b9ccdf94f015251607be343"
+    },
+    "name": "Laptop E203MAH",
+    "cpu": {
+      "model": "Celeron N4000",
+      "type": "celeron",
+      "company": "intel",
+      "id": 200,
+      "rank": 809,
+      "url": "https://cpu.userbenchmark.com/SpeedTest/503050/IntelR-CeleronR-N4000-CPU---110GHz",
+      "rating": "bad"
+    },
+    "os": "windows",
+    "ram": {
+      "amount": 2
+    },
+    "screen": {
+      "inches": 11.6,
+      "resolution": "1366x768",
+      "refresh_rate": 60,
+      "type": "ips"
+    },
+    "graphics_card": {
+      "model": "UHD Graphics 605",
+      "type": "uhd_graphics",
+      "company": "intel",
+      "ram": 2,
+      "id": 396,
+      "rank": 424,
+      "url": "https://gpu.userbenchmark.com/SpeedTest/487064/IntelR-UHD-Graphics-605",
+      "rating": "bad"
+    },
+    "drives": [
+      {
+        "space": "1TB",
+        "rpm": "5400",
+        "type": "hdd"
+      }
+    ],
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": "802.11 ac"
+    },
+    "interface": {
+      "usb3_type_c": 1
+    },
+    "audio": [
+    ],
+    "battery": {
+      "cells": 3,
+      "watts": 42,
+      "type": "Li-polymer"
+    },
+    "dimensions": {
+      "dimensions": "286x193.3x20.1mm",
+      "weight": "1.2kg"
+    },
+    "images": [
+    ],
+    "url": "https://www.asus.com/Laptops/ASUS-Laptop-E203MAH/",
+    "company": "Asus",
+    "price": 865,
+    "videos": [
+      {
+        "id": "UnuOpaP1Ou8",
+        "title": "Asus Vivo Book E203MAH - Unboxing",
+        "thumbnail": "https://i.ytimg.com/vi/UnuOpaP1Ou8/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "e3q2rRuLKFU",
+        "title": "UNBOXING ASUS E203Mah White",
+        "thumbnail": "https://i.ytimg.com/vi/e3q2rRuLKFU/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "sm-nCKNHLvw",
+        "title": "Review Lengkap Laptop Asus Vivobook E203NAH | ReviewGadgetIndonesia",
+        "thumbnail": "https://i.ytimg.com/vi/sm-nCKNHLvw/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "RVXRE52Lu34",
+        "title": "Notebook ASUS E203 : Unboxing & Review",
+        "thumbnail": "https://i.ytimg.com/vi/RVXRE52Lu34/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "OnT-MKRVTpA",
+        "title": "Unboxing Laptop Asus Vivobook E203NAH Cuma 3,5 Juta Rupiah !!! | ReviewGadgetIndonesia",
+        "thumbnail": "https://i.ytimg.com/vi/OnT-MKRVTpA/default.jpg",
+        "country": "us"
+      }
+    ],
+    "resized_images": {
+      "w150": "https://rapidimages.yelidmod.com/w150////.webp",
+      "w300": "https://rapidimages.yelidmod.com/w300////.webp",
+      "w60": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b9cceb54f0152534076ee12"
+    },
+    "name": "Laptop E202SA",
+    "cpu": {
+      "model": "Celeron N3050",
+      "type": "celeron",
+      "company": "intel",
+      "id": 1058,
+      "rank": 1092,
+      "url": "https://cpu.userbenchmark.com/SpeedTest/31154/IntelR-CeleronR-CPU--N3050----160GHz",
+      "rating": "bad"
+    },
+    "os": "windows",
+    "ram": {
+      "type": "DDR3",
+      "amount": 2,
+      "rate": 1600
+    },
+    "screen": {
+      "inches": 11.6,
+      "resolution": "1366x768",
+      "refresh_rate": 60,
+      "type": "ips"
+    },
+    "graphics_card": {
+      "model": "UHD Graphics 605",
+      "type": "hd_graphics",
+      "company": "intel",
+      "ram": 2,
+      "id": 396,
+      "rank": 424,
+      "url": "https://gpu.userbenchmark.com/SpeedTest/487064/IntelR-UHD-Graphics-605",
+      "rating": "bad"
+    },
+    "drives": [
+      {
+        "space": "500GB",
+        "rpm": "5400",
+        "type": "hdd"
+      }
+    ],
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": "802.11 "
+    },
+    "interface": {
+      "usb2_type_a": 1
+    },
+    "audio": [
+    ],
+    "battery": {
+      "watts": 48,
+      "type": "Li-polymer"
+    },
+    "dimensions": {
+      "dimensions": "297x193.3x21.4mm",
+      "weight": "1.2kg"
+    },
+    "images": [
+      "https://rapidimages.yelidmod.com/original/b/9/d/b9da55f8b2d5dac7a056074e63214118.webp",
+      "https://rapidimages.yelidmod.com/original/6/2/3/623850ca6d1778a8c01e7a9f0e4739ab.webp",
+      "https://rapidimages.yelidmod.com/original/9/f/6/9f68e01ae4f86699b39a8e995cdf0354.webp",
+      "https://rapidimages.yelidmod.com/original/c/a/a/caa19ae6a6779699c239c5111afa8d40.webp",
+      "https://rapidimages.yelidmod.com/original/2/f/2/2f241bf163234ccd798d40b699c02464.webp",
+      "https://rapidimages.yelidmod.com/original/6/7/3/6730edf25767735090b74a5ecea8eca5.webp",
+      "https://rapidimages.yelidmod.com/original/3/a/2/3a2f6377fe15822490d25a6e2ef19b68.webp",
+      "https://rapidimages.yelidmod.com/original/b/e/c/bec704d192b565d8fef008bfc950b4b4.webp"
+    ],
+    "url": "https://www.asus.com/Laptops/ASUS-Laptop-E202SA/",
+    "company": "Asus",
+    "videos": [
+      {
+        "id": "HZOoJ8x_h3c",
+        "title": "AYO KITA BONGKAR LAPTOP ASUS E202SA",
+        "thumbnail": "https://i.ytimg.com/vi/HZOoJ8x_h3c/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "lKg7pUQm_j8",
+        "title": "ASUS E202SA Unboxing - with Subtitle",
+        "thumbnail": "https://i.ytimg.com/vi/lKg7pUQm_j8/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "a9n7_gRnASA",
+        "title": "NetBook, Masih ada gunanya? (ft. Asus EeeBook E202)",
+        "thumbnail": "https://i.ytimg.com/vi/a9n7_gRnASA/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "a4EL0J9mg2I",
+        "title": "(REVIEW) ASUS E202SA NEW REALESE",
+        "thumbnail": "https://i.ytimg.com/vi/a4EL0J9mg2I/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "MZZ83s-R6X0",
+        "title": "ASUS EeeBook E202 - Windows 10 Netbook with Intel Braswell ENGLISH",
+        "thumbnail": "https://i.ytimg.com/vi/MZZ83s-R6X0/default.jpg",
+        "country": "us"
+      }
+    ],
+    "price": 1478,
+    "resized_images": {
+      "w150": "https://rapidimages.yelidmod.com/w150////.webp",
+      "w300": "https://rapidimages.yelidmod.com/w300////.webp",
+      "w60": {
+        "https://rapidimages.yelidmod.com/w60/-/0//-0.webp": "https://rapidimages.yelidmod.com/original/b/9/d/b9da55f8b2d5dac7a056074e63214118.webp",
+        "https://rapidimages.yelidmod.com/w60/-/1//-1.webp": "https://rapidimages.yelidmod.com/original/6/2/3/623850ca6d1778a8c01e7a9f0e4739ab.webp",
+        "https://rapidimages.yelidmod.com/w60/-/2//-2.webp": "https://rapidimages.yelidmod.com/original/9/f/6/9f68e01ae4f86699b39a8e995cdf0354.webp",
+        "https://rapidimages.yelidmod.com/w60/-/3//-3.webp": "https://rapidimages.yelidmod.com/original/c/a/a/caa19ae6a6779699c239c5111afa8d40.webp",
+        "https://rapidimages.yelidmod.com/w60/-/4//-4.webp": "https://rapidimages.yelidmod.com/original/2/f/2/2f241bf163234ccd798d40b699c02464.webp",
+        "https://rapidimages.yelidmod.com/w60/-/5//-5.webp": "https://rapidimages.yelidmod.com/original/6/7/3/6730edf25767735090b74a5ecea8eca5.webp",
+        "https://rapidimages.yelidmod.com/w60/-/6//-6.webp": "https://rapidimages.yelidmod.com/original/3/a/2/3a2f6377fe15822490d25a6e2ef19b68.webp",
+        "https://rapidimages.yelidmod.com/w60/-/7//-7.webp": "https://rapidimages.yelidmod.com/original/b/e/c/bec704d192b565d8fef008bfc950b4b4.webp"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b9cceef4f0152534076ee2c"
+    },
+    "name": "Laptop E203MA",
+    "cpu": {
+      "model": "Celeron N4000",
+      "type": "celeron",
+      "company": "intel",
+      "id": 200,
+      "rank": 809,
+      "url": "https://cpu.userbenchmark.com/SpeedTest/503050/IntelR-CeleronR-N4000-CPU---110GHz",
+      "rating": "bad"
+    },
+    "os": "windows",
+    "ram": {
+      "type": "DDR4",
+      "amount": 2,
+      "rate": 2400
+    },
+    "screen": {
+      "inches": 11.6,
+      "resolution": "1366x768",
+      "refresh_rate": 60,
+      "type": "ips"
+    },
+    "graphics_card": {
+      "model": "UHD Graphics 605",
+      "type": "uhd_graphics",
+      "company": "intel",
+      "ram": 2,
+      "id": 396,
+      "rank": 424,
+      "url": "https://gpu.userbenchmark.com/SpeedTest/487064/IntelR-UHD-Graphics-605",
+      "rating": "bad"
+    },
+    "drives": [
+      {
+        "space": "32GB",
+        "rpm": null,
+        "type": "hdd"
+      }
+    ],
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": "802.11 ac"
+    },
+    "interface": {
+      "usb3_type_c": 1
+    },
+    "audio": [
+    ],
+    "battery": {
+      "cells": 2,
+      "watts": 38,
+      "type": "Li-polymer"
+    },
+    "dimensions": {
+      "dimensions": "286x193.3x16.9mm",
+      "weight": "0.9kg"
+    },
+    "images": [
+    ],
+    "url": "https://www.asus.com/Laptops/ASUS-Laptop-E203MA/",
+    "company": "Asus",
+    "price": 888,
+    "videos": [
+      {
+        "id": "GEGaJ_Fz2MQ",
+        "title": "$120 Black Friday Asus Laptop Emulation Test - Vivo Book E203MA",
+        "thumbnail": "https://i.ytimg.com/vi/GEGaJ_Fz2MQ/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "0O-6_Ggp4dU",
+        "title": "THE STUDENT'S LAPTOP! ASUS VivoBook E203 - How to speed up EMMc Laptops Too!",
+        "thumbnail": "https://i.ytimg.com/vi/0O-6_Ggp4dU/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "xlv7kM_SISI",
+        "title": "ASUS Vivobook E200 11.6 Laptop Review $200 Windows 10 notebook",
+        "thumbnail": "https://i.ytimg.com/vi/xlv7kM_SISI/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "sHjOLV1JYDI",
+        "title": "ASUS VivoBook E203 MA - YS03 | 4GB RAM | Unboxing",
+        "thumbnail": "https://i.ytimg.com/vi/sHjOLV1JYDI/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "L_9I5NCgCv0",
+        "title": "9 PC Games Tested $120 Black Friday Laptop - ASUS Vivo Book E203 MA",
+        "thumbnail": "https://i.ytimg.com/vi/L_9I5NCgCv0/default.jpg",
+        "country": "us"
+      }
+    ],
+    "resized_images": {
+      "w150": "https://rapidimages.yelidmod.com/w150////.webp",
+      "w300": "https://rapidimages.yelidmod.com/w300////.webp",
+      "w60": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b9cd05a4f0152578e6cc7f2"
+    },
+    "name": "Laptop E200HA",
+    "cpu": {
+      "model": "Atom x5-Z8300",
+      "type": "atom",
+      "company": "intel",
+      "id": 1004,
+      "rank": 1010,
+      "url": "https://cpu.userbenchmark.com/SpeedTest/37765/IntelR-AtomTM-x5-Z8300--CPU---144GHz",
+      "rating": "bad"
+    },
+    "os": "windows",
+    "ram": {
+      "amount": 2
+    },
+    "screen": {
+      "inches": 11.6,
+      "resolution": "1366x768",
+      "refresh_rate": 60,
+      "type": "ips"
+    },
+    "graphics_card": {
+      "model": "UHD Graphics 605",
+      "type": "hd_graphics",
+      "company": "intel",
+      "ram": 2,
+      "id": 396,
+      "rank": 424,
+      "url": "https://gpu.userbenchmark.com/SpeedTest/487064/IntelR-UHD-Graphics-605",
+      "rating": "bad"
+    },
+    "drives": [
+      {
+        "space": "32GB",
+        "rpm": null,
+        "type": "hdd"
+      }
+    ],
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": "802.11 a"
+    },
+    "interface": {
+      "usb2_type_a": 1
+    },
+    "audio": [
+    ],
+    "battery": {
+      "cells": 2,
+      "watts": 38,
+      "type": "Li-polymer"
+    },
+    "dimensions": {
+      "dimensions": "286x193.3x17.5cm",
+      "weight": "0.98kg"
+    },
+    "images": [
+      "https://rapidimages.yelidmod.com/original/1/2/9/12957d0341be7093be08e8095292cec1.webp",
+      "https://rapidimages.yelidmod.com/original/c/1/c/c1cf510aea34d8b02196d825175baa0e.webp",
+      "https://rapidimages.yelidmod.com/original/b/e/e/bee3cb6c4d7ca186683c587431f2a2db.webp",
+      "https://rapidimages.yelidmod.com/original/5/8/9/589c95c4e3cf7b21b975f406d6ad9063.webp",
+      "https://rapidimages.yelidmod.com/original/2/a/f/2af85e619ca75b9a981992a7a20d71b1.webp",
+      "https://rapidimages.yelidmod.com/original/2/a/9/2a9f1e9a9116068ac3f5e1e7a1124446.webp"
+    ],
+    "url": "https://www.asus.com/Laptops/ASUS-Laptop-E200HA/",
+    "company": "Asus",
+    "price": 2771,
+    "videos": [
+      {
+        "id": "FqPGFYX_E50",
+        "title": "Asus E200HA review - A windows laptop for under £200/$200",
+        "thumbnail": "https://i.ytimg.com/vi/FqPGFYX_E50/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "vV8XNA2IztE",
+        "title": "ASUS VIVOBOOK E200HA REVIEW ($200 NOTEBOOK) GOLD MODEL",
+        "thumbnail": "https://i.ytimg.com/vi/vV8XNA2IztE/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "KUb9q4CYOdY",
+        "title": "ASUS VivoBook E200HA Review - $199 Windows Laptop - compared to X205TA",
+        "thumbnail": "https://i.ytimg.com/vi/KUb9q4CYOdY/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "NZOQb1zThzI",
+        "title": "Asus VivoBook E200HA",
+        "thumbnail": "https://i.ytimg.com/vi/NZOQb1zThzI/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "Li1ijsbzJW8",
+        "title": "Best $200 Laptop: ASUS E200HA-US01 & It Games!!!",
+        "thumbnail": "https://i.ytimg.com/vi/Li1ijsbzJW8/default.jpg",
+        "country": "us"
+      }
+    ],
+    "resized_images": {
+      "w150": "https://rapidimages.yelidmod.com/w150////.webp",
+      "w300": "https://rapidimages.yelidmod.com/w300////.webp",
+      "w60": {
+        "https://rapidimages.yelidmod.com/w60/-/0//-0.webp": "https://rapidimages.yelidmod.com/original/1/2/9/12957d0341be7093be08e8095292cec1.webp",
+        "https://rapidimages.yelidmod.com/w60/-/1//-1.webp": "https://rapidimages.yelidmod.com/original/c/1/c/c1cf510aea34d8b02196d825175baa0e.webp",
+        "https://rapidimages.yelidmod.com/w60/-/2//-2.webp": "https://rapidimages.yelidmod.com/original/b/e/e/bee3cb6c4d7ca186683c587431f2a2db.webp",
+        "https://rapidimages.yelidmod.com/w60/-/3//-3.webp": "https://rapidimages.yelidmod.com/original/5/8/9/589c95c4e3cf7b21b975f406d6ad9063.webp",
+        "https://rapidimages.yelidmod.com/w60/-/4//-4.webp": "https://rapidimages.yelidmod.com/original/2/a/f/2af85e619ca75b9a981992a7a20d71b1.webp",
+        "https://rapidimages.yelidmod.com/w60/-/5//-5.webp": "https://rapidimages.yelidmod.com/original/2/a/9/2a9f1e9a9116068ac3f5e1e7a1124446.webp"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b9ccd234f01524f16096862"
+    },
+    "name": "Laptop E406SA",
+    "cpu": {
+      "model": "Celeron N3060",
+      "type": "celeron",
+      "company": "intel",
+      "id": 1025,
+      "rank": 1065,
+      "url": "https://cpu.userbenchmark.com/SpeedTest/130019/IntelR-CeleronR-CPU--N3060----160GHz",
+      "rating": "bad"
+    },
+    "os": "windows",
+    "ram": {
+      "amount": 2
+    },
+    "screen": {
+      "inches": 14,
+      "resolution": "1920x1080",
+      "refresh_rate": 60,
+      "type": "ips"
+    },
+    "graphics_card": {
+      "model": "UHD Graphics 605",
+      "type": "hd_graphics",
+      "company": "intel",
+      "ram": 2,
+      "id": 396,
+      "rank": 424,
+      "url": "https://gpu.userbenchmark.com/SpeedTest/487064/IntelR-UHD-Graphics-605",
+      "rating": "bad"
+    },
+    "drives": [
+      {
+        "space": "32GB",
+        "rpm": null,
+        "type": "hdd"
+      }
+    ],
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": "802.11 ac"
+    },
+    "interface": {
+      "usb3_type_a": 1
+    },
+    "audio": [
+    ],
+    "battery": {
+      "watts": 56
+    },
+    "dimensions": {
+      "dimensions": "326.4x226.5x17.6mm",
+      "weight": "1.3kg"
+    },
+    "images": [
+      "https://rapidimages.yelidmod.com/original/2/4/f/24f6a7d9e935145d78de20645be80bb9.webp",
+      "https://rapidimages.yelidmod.com/original/4/8/d/48d83f4358edb996cc8c52cbd5e7aab4.webp",
+      "https://rapidimages.yelidmod.com/original/4/b/5/4b519f954ce513f22eb83a0d7c45f12a.webp",
+      "https://rapidimages.yelidmod.com/original/d/0/0/d00436c65bdb01f59959759c0854267e.webp",
+      "https://rapidimages.yelidmod.com/original/6/9/0/690faa2a3cfa674dae53cb812f72d894.webp",
+      "https://rapidimages.yelidmod.com/original/c/a/0/ca0a1a8712c005aac0aa0180a868a3fd.webp"
+    ],
+    "url": "https://www.asus.com/Laptops/ASUS-Laptop-E406SA/",
+    "company": "Asus",
+    "price": 1721,
+    "videos": [
+      {
+        "id": "OlKUW6rwKdA",
+        "title": "Asus VivoBook E403SA 14 Windows 10 Notebook Review e200",
+        "thumbnail": "https://i.ytimg.com/vi/OlKUW6rwKdA/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "Z1VP6KATVvs",
+        "title": "Is a $400 Laptop Worth It?",
+        "thumbnail": "https://i.ytimg.com/vi/Z1VP6KATVvs/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "4emE6hB9kE4",
+        "title": "New ASUS E406SA-DS04 14-Inch Full HD Thin and Light Laptop Overview",
+        "thumbnail": "https://i.ytimg.com/vi/4emE6hB9kE4/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "NYXyyYbFFdM",
+        "title": "Trên Tay Asus Vivobook E406: Mỏng nhẹ và tinh tế",
+        "thumbnail": "https://i.ytimg.com/vi/NYXyyYbFFdM/default.jpg",
+        "country": "us"
+      },
+      {
+        "id": "YGrB8IlZiLY",
+        "title": "Asus VivoBook E403SA Laptop Review",
+        "thumbnail": "https://i.ytimg.com/vi/YGrB8IlZiLY/default.jpg",
+        "country": "us"
+      }
+    ],
+    "resized_images": {
+      "w150": "https://rapidimages.yelidmod.com/w150////.webp",
+      "w300": "https://rapidimages.yelidmod.com/w300////.webp",
+      "w60": {
+        "https://rapidimages.yelidmod.com/w60/-/0//-0.webp": "https://rapidimages.yelidmod.com/original/2/4/f/24f6a7d9e935145d78de20645be80bb9.webp",
+        "https://rapidimages.yelidmod.com/w60/-/1//-1.webp": "https://rapidimages.yelidmod.com/original/4/8/d/48d83f4358edb996cc8c52cbd5e7aab4.webp",
+        "https://rapidimages.yelidmod.com/w60/-/2//-2.webp": "https://rapidimages.yelidmod.com/original/4/b/5/4b519f954ce513f22eb83a0d7c45f12a.webp",
+        "https://rapidimages.yelidmod.com/w60/-/3//-3.webp": "https://rapidimages.yelidmod.com/original/d/0/0/d00436c65bdb01f59959759c0854267e.webp",
+        "https://rapidimages.yelidmod.com/w60/-/4//-4.webp": "https://rapidimages.yelidmod.com/original/6/9/0/690faa2a3cfa674dae53cb812f72d894.webp",
+        "https://rapidimages.yelidmod.com/w60/-/5//-5.webp": "https://rapidimages.yelidmod.com/original/c/a/0/ca0a1a8712c005aac0aa0180a868a3fd.webp"
+      }
+    }
+  }
+]

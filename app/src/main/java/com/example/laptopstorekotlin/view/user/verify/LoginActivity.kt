@@ -3,15 +3,15 @@ package com.example.laptopstorekotlin.view.user.verify
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.example.laptopstorekotlin.R
+import com.example.laptopstorekotlin.dao.item.ItemDAOImpl
 import com.example.laptopstorekotlin.dao.user.UserDAOImpl
 import com.example.laptopstorekotlin.databinding.ActivityLoginBinding
 import com.example.laptopstorekotlin.model.user.User
 import com.example.laptopstorekotlin.utils.PreferenceUtils
-import com.example.laptopstorekotlin.view.user.main.MainActivity
+import com.example.laptopstorekotlin.view.user.main.activities.MainActivity
 import com.example.laptopstorekotlin.viewmodel.user.UserViewModel
 import com.example.laptopstorekotlin.viewmodel.user.UserViewModelFactory
 import java.io.Serializable
@@ -38,6 +38,8 @@ class LoginActivity : AppCompatActivity() {
         loginViewBinding.btnLogin.setOnClickListener{
             userViewModel.checkLogin()
         }
+        val itemDAO = ItemDAOImpl(applicationContext)
+        itemDAO.getAllItems()
     }
 
     private fun goToMainPage(user:User){

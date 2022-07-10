@@ -2,13 +2,14 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".view.user.main.MainActivity">
+    tools:context=".view.user.main.activities.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.viewpager2.widget.ViewPager2
+        <GridView
+            android:id="@+id/gridView"
             android:layout_width="409dp"
             android:layout_height="729dp"
             app:layout_constraintBottom_toBottomOf="parent"

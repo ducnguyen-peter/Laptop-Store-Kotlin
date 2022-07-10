@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.laptopstorekotlin.dao.user.UserDAO
-import com.example.laptopstorekotlin.model.user.User
 
 class UserViewModel(private val userDAO:UserDAO) : ViewModel() {
     val userIdentity = MutableLiveData<String?>()
