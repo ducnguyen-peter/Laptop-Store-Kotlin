@@ -3,15 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".view.user.main.activities.MainActivity">
-
+    <data>
+        <variable
+            name="itemViewModel"
+            type="com.example.laptopstorekotlin.viewmodel.item.ItemViewModel" />
+    </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <GridView
-            android:id="@+id/gridView"
-            android:layout_width="409dp"
-            android:layout_height="729dp"
+            android:id="@+id/gridViewItem"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:numColumns="auto_fit"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

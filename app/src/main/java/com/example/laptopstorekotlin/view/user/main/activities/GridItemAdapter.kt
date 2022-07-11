@@ -10,15 +10,14 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.databinding.DataBindingUtil
 import com.example.laptopstorekotlin.R
-import com.example.laptopstorekotlin.databinding.GridItemBinding
 import com.example.laptopstorekotlin.model.item.Item
 import java.io.IOException
 import java.net.URL
 import java.util.*
 
-class GridItemAdapter(val context:Context,val listItem:ArrayList<Item>): BaseAdapter() {
+class GridItemAdapter(private val context: Context, private val listItem: ArrayList<Item>)
+    : BaseAdapter() {
 
     override fun getCount(): Int {
         return listItem.size
@@ -34,27 +33,47 @@ class GridItemAdapter(val context:Context,val listItem:ArrayList<Item>): BaseAda
 
     override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
         val item = listItem[p0]
-        val view:View by lazy {
+        val view: View by lazy {
             (context as Activity).layoutInflater.inflate(R.layout.grid_item, p2, false)
         }
-        val viewbinding : GridItemBinding = DataBindingUtil.setContentView(context as MainActivity, R.layout.grid_item)
-        viewbinding.lblItemName.text = item.name
-        viewbinding.lblItemPrice.text = String.format(Locale.ENGLISH, "%.1f$", item.price)
-        viewbinding.imgItem.apply {
-            val bitmapTask = GetBitMapUrlTask(item.resizedImage.w150)
-            bitmapTask.run()
-            setImageBitmap(bitmapTask.bitMap)
+        val viewHolder = ViewHolder()
+
+        viewHolder.txtItemName = view.findViewById(R.id.lblItemName)
+        viewHolder.txtItemPrice = view.findViewById(R.id.lblItemPrice)
+        viewHolder.imgItem = view.findViewById(R.id.imgItem)
+
+        viewHolder.txtItemName?.apply {
+            text = item.name
         }
+        viewHolder.txtItemPrice?.apply {
+            text = String.format(Locale.ENGLISH, "%.1f$", item.price)
+        }
+        viewHolder.imgItem?.apply {
+            val url = if(item.images.size!=0){
+                item.images[0]
+            } else "https://cdn3.vectorstock.com/i/1000x1000/42/57/abstract-creative-laptop-isometric-template-3d-vector-31074257.jpg"
+            val bitMapUrlTask = GetBitMapUrlTask(url)
+            bitMapUrlTask.start()
+            setImageBitmap(bitMapUrlTask.bitMap)
+        }
+        print("""item name: ${viewHolder.txtItemName?.text}
+            item price: ${viewHolder.txtItemPrice?.text}
+        """)
         return view
     }
 
-    private class GetBitMapUrlTask(private val url: String) : Runnable {
+    private class ViewHolder {
+        var txtItemName: TextView? = null
+        var txtItemPrice: TextView? = null
+        var imgItem: ImageView? = null
+    }
+
+    private class GetBitMapUrlTask(private val url: String) : Thread() {
         @Volatile
         var bitMap: Bitmap? = null
-            private set
         override fun run() {
             try {
-                bitMap = BitmapFactory.decodeStream(URL(url).openStream())
+                bitMap = Bitmap.createScaledBitmap(BitmapFactory.decodeStream(URL(url).openStream()), 120, 120, false)
             } catch (e: IOException) {
                 Log.e("getBitMapFromUrl", "Error when getting image", e)
                 e.printStackTrace()

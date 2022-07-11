@@ -1,7 +1,7 @@
 [
   {
     "_id": {
-      "$oid": "5b9ccdf94f015251607be343"
+      "oid": "5b9ccdf94f015251607be343"
     },
     "name": "Laptop E203MAH",
     "cpu": {
@@ -103,7 +103,7 @@
   },
   {
     "_id": {
-      "$oid": "5b9cceb54f0152534076ee12"
+      "oid": "5b9cceb54f0152534076ee12"
     },
     "name": "Laptop E202SA",
     "cpu": {
@@ -223,7 +223,7 @@
   },
   {
     "_id": {
-      "$oid": "5b9cceef4f0152534076ee2c"
+      "oid": "5b9cceef4f0152534076ee2c"
     },
     "name": "Laptop E203MA",
     "cpu": {
@@ -327,7 +327,7 @@
   },
   {
     "_id": {
-      "$oid": "5b9cd05a4f0152578e6cc7f2"
+      "oid": "5b9cd05a4f0152578e6cc7f2"
     },
     "name": "Laptop E200HA",
     "cpu": {
@@ -442,7 +442,7 @@
   },
   {
     "_id": {
-      "$oid": "5b9ccd234f01524f16096862"
+      "oid": "5b9ccd234f01524f16096862"
     },
     "name": "Laptop E406SA",
     "cpu": {

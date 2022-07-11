@@ -8,8 +8,8 @@ import com.example.laptopstorekotlin.dao.item.ItemDAOImpl
 import com.example.laptopstorekotlin.model.item.Item
 
 class ItemViewModel(private val itemDAO: ItemDAO):ViewModel() {
-    val _listItem = MutableLiveData<ArrayList<Item?>>()
-    val listItem:LiveData<ArrayList<Item?>> = _listItem
+    val _listItem = MutableLiveData<ArrayList<Item>>()
+    val listItem:LiveData<ArrayList<Item>> = _listItem
     fun postItems(){
         Thread{
             _listItem.postValue(itemDAO.getAllItems())

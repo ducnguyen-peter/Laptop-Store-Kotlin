@@ -11,6 +11,7 @@ import com.example.laptopstorekotlin.R
 import com.example.laptopstorekotlin.dao.item.ItemDAOImpl
 import com.example.laptopstorekotlin.dao.user.UserDAOImpl
 import com.example.laptopstorekotlin.databinding.ActivityMainBinding
+import com.example.laptopstorekotlin.model.item.Item
 import com.example.laptopstorekotlin.model.user.User
 import com.example.laptopstorekotlin.utils.PreferenceUtils
 import com.example.laptopstorekotlin.view.user.verify.LoginActivity
@@ -21,12 +22,21 @@ class MainActivity : AppCompatActivity() {
     private val itemViewModel:ItemViewModel by viewModels {
         ItemViewModelFactory(ItemDAOImpl(this))
     }
+    private var listItem = ArrayList<Item>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val viewBinding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
-//        val adapter = GridItemAdapter(this, )
+        viewBinding.itemViewModel = itemViewModel
+        val adapter = GridItemAdapter(this, listItem)
+        viewBinding.gridViewItem.adapter = adapter
+        itemViewModel.listItem.observe(this){ listItem:ArrayList<Item>->
+            this.listItem.clear()
+            this.listItem.addAll(listItem)
+            adapter.notifyDataSetChanged()
+        }
+        itemViewModel.postItems()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
